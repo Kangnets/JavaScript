@@ -1,0 +1,104 @@
+
+.syncro-card,
+.syncro-card * {
+  box-sizing: border-box;
+}
+
+
+
+
+.syncro-card-body {
+  
+}
+
+
+
+.syncro-progress-stepped {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  height: 10px;
+  margin-left: -2px;
+  margin-bottom: 15px;
+}
+
+.syncro-progress-stepped-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-left: 2px;
+  font-size: 0;
+  font-weight: 600;
+  color: transparent;
+  background-color: #f3f8fc;
+  -webkit-transition: color 0.2s ease, -webkit-transform 0.2s ease;
+  transition: color 0.2s ease, -webkit-transform 0.2s ease;
+  -o-transition: transform 0.2s ease, color 0.2s ease;
+  transition: transform 0.2s ease, color 0.2s ease;
+  transition: transform 0.2s ease, color 0.2s ease, -webkit-transform 0.2s ease;
+}
+
+.syncro-progress-stepped-item:first-child {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.syncro-progress-stepped-item:last-child {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+/*
+.syncro-progress-stepped-item.active {
+  font-size: 10px;
+  color: #fff;
+  font-family: 'GmarketSans';
+font-weight: 500;
+  border-radius: 5px;
+  -webkit-transform: scaleY(1.25);
+  transform: scaleY(1.25);
+} */
+
+.syncro-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: -5px;
+  margin-right: -10px;
+  margin-left: -10px;
+}
+
+
+
+.syncro-btn {
+  padding: 0;
+  color: inherit;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  -webkit-appearance: none;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+
